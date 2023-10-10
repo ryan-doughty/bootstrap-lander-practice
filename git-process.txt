@@ -1,0 +1,16 @@
+***Git flow process***
+I've created the following branches:
+
+master
+staging
+release/0.1.0
+feature-1 (Changes button color)
+feature-2 ( Changes Title Text and Size )
+feature-3-crazy-town (Removes a row and adds the Hero Banner markup and styles )
+
+Staging:
+-feature-1, feature-2, and feature-3-crazy-town are merged into staging for development and testing.
+
+Next step:
+-feature-1 and feature-2 approved for release/0.1.0
+-merge these branches into release/0.1.0
