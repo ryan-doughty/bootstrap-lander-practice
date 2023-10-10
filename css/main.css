@@ -40,13 +40,17 @@ hr {
 
 /* Header Section */
 header.header-section {
-    padding-top: 20px;
     text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 20;
     background-color: #FCFCFF;
+}
+
+@media all and (min-width: 767px) {
+    header.header-section {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        padding-top: 20px;
+    }
 }
 
 header.header-section .logo-container img {
@@ -75,10 +79,18 @@ h1.patriot-title {
 /* Hero Banner Wrapper */
 .hero-banner-wrapper {
     background-image: url(../images/black-and-white-mountain-over-yellow-white-and-blue-sky-46253.jpg);
-    padding: 10vw 0px;
+    padding: 30% 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 50vh;
+}
+
+@media all and (min-width: 767px) {
+    .hero-banner-wrapper {
+        padding: 10vw 0px;
+        height: auto;
+    }
 }
 
 /* Two Bill Banner and Badges Row*/
