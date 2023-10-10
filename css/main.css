@@ -28,7 +28,7 @@ img {
 hr {
     border: 0;
     height: 2px;
-    background-color: #2E2C2F
+    background-color: #2E2C2F;
     width: calc(80% - 30px);
 }
 
@@ -54,14 +54,15 @@ header.header-section .logo-container img {
 }
 
 h1.patriot-title {
-    font-size: 24px;
+    font-size: 36px;
     padding: 0 .5rem;
     font-weight: 700;
+    color: rgba(13, 52, 106, 1);
 }
 
 @media all and (min-width: 767px) {
     h1.patriot-title {
-        font-size: 40px;
+        font-size: 56px;
         margin-top: 1rem;
     }
 
@@ -283,8 +284,8 @@ footer ul.list-unstyled {
 }
 
 .btn-primary {
-    background-color: rgba(105, 165, 153, 1);
-    border-color: rgba(105, 165, 153, 1);
+    background-color: rgba(13, 52, 106, 1);
+    border-color: rgba(13, 52, 106, 1);
     color: #fff!important;
     text-decoration: none;
     border-radius: 0;
@@ -293,9 +294,9 @@ footer ul.list-unstyled {
     padding: 0.75rem 1.5rem;
 }
 
-.btn-primary:hover {
-    background-color: rgba(105, 165, 153, .8);
-    border-color: rgba(105, 165, 153, .8); 
+.btn-primary:is(:hover, :focus) {
+    background-color: rgba(13, 52, 106, .8);
+    border-color: rgba(13, 52, 106, .8); 
 }
 
 @media all and (min-width: 767px) {
