@@ -73,6 +73,15 @@ h1.patriot-title {
     }
 }
 
+/* Hero Banner Wrapper */
+.hero-banner-wrapper {
+    background-image: url(../images/black-and-white-mountain-over-yellow-white-and-blue-sky-46253.jpg);
+    padding: 10vw 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Two Bill Banner and Badges Row*/
 .two-bill-banner-wrapper {
    margin-bottom: 1rem;
