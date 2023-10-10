@@ -9,6 +9,12 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+h2,
+h3,
+h4 {
+    color: rgb(58, 170, 53);
+}
+
 a:link,
 a:visited {
     color: rgba(189, 107, 115, 1);
