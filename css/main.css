@@ -46,13 +46,18 @@ hr {
 
 /* Header Section */
 header.header-section {
-    padding-top: 20px;
     text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 20;
     background-color: #FCFCFF;
+}
+
+@media all and (min-width: 767px) {
+    header.header-section {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        padding-top: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, .45);
+    }
 }
 
 header.header-section .logo-container img {
@@ -76,6 +81,23 @@ h1.patriot-title {
         font-size: 18px;
         font-weight: 700;
         padding: .9rem 2rem;
+    }
+}
+
+/* Hero Banner Wrapper */
+.hero-banner-wrapper {
+    background-image: url(../images/black-and-white-mountain-over-yellow-white-and-blue-sky-46253.jpg);
+    padding: 30% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+@media all and (min-width: 767px) {
+    .hero-banner-wrapper {
+        padding: 10vw 0px;
+        height: auto;
     }
 }
 
